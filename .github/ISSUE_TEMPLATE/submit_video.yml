@@ -1,0 +1,76 @@
+name: 推荐科普视频
+description: 向某个科研方向页的「相关科普」区推荐科普视频
+title: "[视频] "
+labels: ["contribution/video"]
+body:
+  - type: dropdown
+    id: direction
+    attributes:
+      label: 归属科研方向
+      options:
+        - 处理器架构与编译系统
+        - AI 算法与系统
+        - EDA 与设计自动化
+        - 存算一体与近存计算
+        - 可重构计算与 FPGA
+        - 先进封装与异构集成
+        - 半导体器件与先进工艺
+        - 模拟与混合信号 IC
+        - 射频与毫米波 IC
+        - 光电子与硅光集成
+        - 功率半导体与宽禁带器件
+        - MEMS 与微纳传感器
+        - 量子计算与量子芯片
+        - 硬件安全与可信计算
+        - 具身智能
+        - 生物电子与脑机接口
+        - 类脑芯片
+    validations:
+      required: true
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: 平台
+      options:
+        - B站
+        - YouTube
+    validations:
+      required: true
+
+  - type: input
+    id: title
+    attributes:
+      label: 视频标题
+      description: 与视频或播放列表的实际标题保持一致
+      placeholder: "如：【硬核科普】带你认识CPU第05期——CPU是怎么计算乘法的"
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: 视频链接
+      description: "B站给 BV 号链接（如 https://www.bilibili.com/video/BV1AB4y1p7ax）；YouTube 给视频或播放列表链接"
+      placeholder: "https://"
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: 推荐理由
+      description: 适合什么背景的人看、讲了哪些核心点、为什么放在这个方向
+      placeholder: "适合对 XXX 完全没概念的人入门，讲清了 YYY..."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: 确认
+      options:
+        - label: 链接我已打开验证，可正常访问，内容与标题相符
+          required: true
+        - label: 该视频公开免费可看（不需要付费或登录校内系统）
+          required: true
