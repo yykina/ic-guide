@@ -403,7 +403,7 @@ graph LR
 
     流水线 ADC | 时间交织数据转换器 | 5G 基站高精度 ADC/DAC
 
--   **[倪熔华](https://sme.fudan.edu.cn/60/15/c31149a352277/page.htm)** <span class="badge-fudan">复旦</span>
+-   **[倪熔华](https://sme.fudan.edu.cn/60/15/c31149a352277/page.htm)** <span class="badge-fudan">复旦</span> <span class="prof-w"></span>
 
     低抖动分数 N PLL | 高速 SerDes 收发器 | 宽带 VCO 时钟生成
 
@@ -507,9 +507,25 @@ graph LR
 
     模拟与混合信号 IC | 高精度 ADC 与隔离放大器 | 图像传感器读出
 
+-   **[罗萍](https://icse.uestc.edu.cn/info/1812/6530.htm)** <span class="badge-other">成电</span> <span class="prof-w"></span>
+
+    智能功率 IC 与系统 | 高效电源管理 | 能量采集与低功耗数模混合 IC
+
 -   **[明鑫](https://icse.uestc.edu.cn/info/1812/6534.htm)** <span class="badge-other">成电</span>
 
     电源管理 IC | 功率集成电路 | 模拟集成电路
+
+-   **[毛翔宇](https://faculty.uestc.edu.cn/maoxiangyu1/zh_CN/index.htm)** <span class="badge-other">成电</span>
+
+    电源管理与模拟 IC | 垂直供电架构 | 高频高密度 DC-DC / LDO
+
+-   **[李靖](https://faculty.uestc.edu.cn/lijing12/zh_CN/index.htm)** <span class="badge-other">成电</span>
+
+    高精度/高速 SAR ADC | 超声成像接收前端 ASIC | CMOS 温度与生物信号传感接口
+
+-   **[庄浩宇](https://icse.uestc.edu.cn/info/1813/6493.htm)** <span class="badge-other">成电</span>
+
+    噪声整形 SAR ADC | 全动态/时间交织 ADC | 比较器与基准源
 
 -   **[张红帅](https://faculty.uestc.edu.cn/zhanghongshuai/zh_CN/index.htm)** <span class="badge-other">成电</span>
 
