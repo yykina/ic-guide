@@ -403,7 +403,7 @@ graph LR
 
     流水线 ADC | 时间交织数据转换器 | 5G 基站高精度 ADC/DAC
 
--   **[倪熔华](https://sme.fudan.edu.cn/60/15/c31149a352277/page.htm)** <span class="badge-fudan">复旦</span>
+-   **[倪熔华](https://sme.fudan.edu.cn/60/15/c31149a352277/page.htm)** <span class="badge-fudan">复旦</span> <span class="prof-w"></span>
 
     低抖动分数 N PLL | 高速 SerDes 收发器 | 宽带 VCO 时钟生成
 
